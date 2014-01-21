@@ -306,7 +306,7 @@ module UmlautConfigurable
         div_id "document_delivery"
         section_title :request_from_interlibrary
         html_area :main
-        visibility :responses_exist
+        visibility true
         #bg_update false
       end
       
