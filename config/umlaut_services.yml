@@ -1,4 +1,3 @@
-
   # Configure what service plugins are used by Umlaut. This skeleton file
   # has been generated into your app to help you get started. 
   #
@@ -102,11 +101,16 @@ default:
           
       ElsevierCover:
         type: ElsevierCover
-        priority: c
+        priority: 1
         
       UlrichsCover:
         type: UlrichsCover
-        priority: c      
+        priority: 1
+        
+      OpenLibraryCover:
+        type: OpenLibraryCover
+        priority: 1
+        disabled: false
           
       GoogleBookSearch:
         type: GoogleBookSearch
@@ -159,6 +163,7 @@ default:
       Ulrichs:
         display_name: "Ulrich's Directory"
         type: UlrichsLink
+        disabled: true
         priority: d
         
       IsbnDb:
@@ -170,6 +175,7 @@ default:
                 
       EmailExport:
         type: EmailExport
+        disabled: true
         priority: d
         
       TxtHoldingExport:
@@ -207,6 +213,7 @@ default:
       Worldcat:
         display_name: OCLC Worldcat.org
         type: Worldcat
+        disabled: true
         priority: d
         # suppress_precheck says don't actually screen-scrape to
         # see if the link is good, just link blindly. Mostly works
@@ -246,9 +253,9 @@ default:
       # Redirect outgoing links through EZProxy                
       EZProxy:
         type: Ezproxy
-        disabled: true
+        disabled: false
         task: link_out_filter  
-        proxy_server:  HOSTNAME_OF_YOUR_EZPROXY
+        proxy_server:  ep.fjernadgang.kb.dk
         # By default, will pre-check with EZProxy api and
         # only send links through EZProxy that are proxyable.
         # requires proxy_password to be set. 
@@ -257,7 +264,7 @@ default:
         # have EZProxy itself set to transparently redirect non-proxyable
         # URLs back to non-proxied version.
         #
-        #precheck_with_api: false
+        precheck_with_api: true
         priority: 5
         proxy_password: YOUR_EZPROXY_API_PWD
         # Want to exclude certain hostnames from being directed through EZProxy?

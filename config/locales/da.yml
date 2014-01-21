@@ -3,7 +3,7 @@ da:
   language: Language
   en: English
   da: Dansk
-  system_name: E-tidskrifter
+  system_name: E-tidsskrifter
   Journals: E-tidsskrifter
   other: Andet
   journals_subheader: Leder du efter en bestemt tidsskrift eller artikel?
@@ -66,7 +66,7 @@ da:
   initials: Initialer
   online_access: Online adgang
   not_available: Ikke tilgængelig
-  request_from_interlibrary: Bestil en kopi, hvis du ikke har fjernadgang
+  request_from_interlibrary: 'Har du ikke fjernadgang? Se under:'
   more_like_this: Anbefalinger - lignende artikler
   related_items: Relaterede materialer
   see_also: Prøv også
