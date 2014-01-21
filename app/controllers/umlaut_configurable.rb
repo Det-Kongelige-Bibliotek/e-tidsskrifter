@@ -36,7 +36,7 @@ module UmlautConfigurable
       # footer_credit "Find It service provided by <a href='http://www.university.edu/'>My University</a>".html_safe
       
       # Sometimes Umlaut sends out email, what email addr should it be from?
-      from_email_addr 'no_reply@kb.dk'
+      from_email_addr 'besked@kb.dk'
       localisation_enabled true
       layout "umlaut"
       resolve_layout deferred! {|c| c.layout}    
