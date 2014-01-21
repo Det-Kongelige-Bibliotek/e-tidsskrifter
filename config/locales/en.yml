@@ -68,7 +68,7 @@ en:
   initials: Initials
   online_access: Online Access
   not_available: Not Available
-  request_from_interlibrary: If you don't have remote access privileges, you may request a copy
+  request_from_interlibrary: 'No remote access? See options below:'
   more_like_this: Articles recommended with this
   related_items: Related Items
   see_also: See also
