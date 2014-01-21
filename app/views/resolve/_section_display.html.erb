@@ -20,7 +20,7 @@ if presenter.visible?
       end 
   elsif presenter.responses_list.length == 0 && ! presenter.services_in_progress?%>
     <ul class="response_list">
-      <li>None available.</li>
+      <li><%= t :none_available %></li>
     </ul><%
   else %>
     <ul class="response_list <%= presenter.div_id %>"><%= 
