@@ -1,5 +1,5 @@
 class FeedbackMailer < ActionMailer::Base
-  default to: 'romc@kb.dk'
+  default to: 'kontaktbiblioteket@kb.dk'
 
 
 
