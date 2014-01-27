@@ -10,7 +10,9 @@ da:
   search_instructions: Indsæt tidsskriftets titel eller ISSN nummeret. Hvis du har begge dele, brug ISSN nummeret.
   journal_title: Tidsskriftsnavn
   contains: indeholder
+  begins: starter med
   begins_with: starter med
+  exact: lige præcis
   exact_match: lige præcis
   journal_titles_that: Tidsskrifter der
   no_journal_titles_found_that: Kunne ikke finde tidsskrifter med titler der

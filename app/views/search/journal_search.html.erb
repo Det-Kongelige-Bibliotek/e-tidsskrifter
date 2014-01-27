@@ -10,7 +10,7 @@
                     <%= hidden_field_tag "rft.object_id", "", {:class => "rft_object_id"} %>
                     <%= hidden_field_tag "rft.issn", "" %>
                     <%= hidden_field_tag "umlaut.locale", I18n.locale %>
-                    <%= hidden_field_tag "umlaut.search_type", "contains" %>
+                    <%= hidden_field_tag "umlaut.search_type", params['umlaut.search_type'] || "contains" %>
                     <%-
                     # specific article fields from prior form may be present, if the user is now choosing from
                     # amongst serveral possible title matches. Preserve them on refinement of search terms.
@@ -25,13 +25,20 @@
                   <%= text_field :journal, :title, {:name=>'search_val', :value=>params['rft.jtitle'], :class=>"title_search form-control", :placeholder=> t(:title_or_issn), :autocomplete => "off"} %>
                   <div class="input-group-btn">
                     <button type="button" id="js_search_type_button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                      <span class="hidden-xs"><%= t(:contains).titleize %> <span class="caret"></span></span>
+                      <span class="hidden-xs">
+                        <% if params['umlaut.search_type'] %>
+                          <%= t(params['umlaut.search_type'].to_sym).titleize %>
+                        <% else %>
+                          <%= t(:contains).titleize %>
+                        <% end %>
+                        <span class="caret"></span>
+                      </span>
                       <span class="visible-xs"><span class="glyphicon glyphicon-cog"></span><span class="caret"></span></span>
 
                     </button>
                     <ul id="js_search_type" class="dropdown-menu pull-right">
                       <li id="contains"><a href="#"><%= t(:contains).titleize %></a></li>
-                      <li id="begins_with"><a href="#"><%= t(:begins_with).titleize %></a></li>
+                      <li id="begins"><a href="#"><%= t(:begins_with).titleize %></a></li>
                       <li id="exact_match"><a  href="#"><%= t(:exact_match).titleize %></a></li>
                       <li class="divider"></li>
                       <li id="issn"><a href="#">ISSN</a></li>
