@@ -109,10 +109,16 @@ class SearchController < UmlautController
     # Tell the user if we have no results to show - KB custom
     @page_title = @display_results.length > 0 ? t(:journal_titles_that) : t(:no_journal_titles_found_that)
     @page_title += ' '
-    @page_title +=
-      (params["umlaut.title_search_type"] == "begins") ?
-        t(:begins_with) : t(:contains)
-    @page_title += " '" + params['rft.jtitle'] + "':"
+
+    if params['umlaut.title_search_type'] == 'begins'
+      @page_title += t(:begin_with)
+    elsif params['umlaut.title_search_type'] == 'contains'
+      @page_title += t(:contains).singularize
+    else
+      @page_title += t(:match_exactly).singularize
+    end
+    @page_title += " '" + params['rft.jtitle'] + "'"
+    @page_title += ":" unless @display_results.length == 0
   end
 
 

@@ -179,3 +179,5 @@ da:
   title_or_issn: "Titel eller ISSN"
   logo_path: "logoDa.png"
   none_available: Ingen tilgængelige.
+  match_exactly: "er lige med"
+  begin_with: "starter med"

@@ -182,3 +182,5 @@ en:
   title_or_issn: "Title or ISSN"
   logo_path: "logoUk.png"
   none_available: None available.
+  match_exactly: match exactly
+  begin_with: "begin with"
