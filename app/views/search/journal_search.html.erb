@@ -27,9 +27,9 @@
                     <button type="button" id="js_search_type_button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                       <span class="hidden-xs">
                         <% if params['umlaut.search_type'] %>
-                          <%= t(params['umlaut.search_type'].to_sym).titleize %>
+                          <%= t(params['umlaut.search_type'].to_sym)%>
                         <% else %>
-                          <%= t(:contains).titleize %>
+                          <%= t(:contains) %>
                         <% end %>
                         <span class="caret"></span>
                       </span>
@@ -37,9 +37,9 @@
 
                     </button>
                     <ul id="js_search_type" class="dropdown-menu pull-right">
-                      <li id="contains"><a href="#"><%= t(:contains).titleize %></a></li>
-                      <li id="begins"><a href="#"><%= t(:begins_with).titleize %></a></li>
-                      <li id="exact_match"><a  href="#"><%= t(:exact_match).titleize %></a></li>
+                      <li id="contains"><a href="#"><%= t(:contains) %></a></li>
+                      <li id="begins"><a href="#"><%= t(:begins_with) %></a></li>
+                      <li id="exact_match"><a  href="#"><%= t(:exact_match) %></a></li>
                       <li class="divider"></li>
                       <li id="issn"><a href="#">ISSN</a></li>
                     </ul>

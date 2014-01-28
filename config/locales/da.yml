@@ -12,8 +12,8 @@ da:
   contains: indeholder
   begins: starter med
   begins_with: starter med
-  exact: lige præcis
-  exact_match: lige præcis
+  exact: præcis
+  exact_match: præcis
   journal_titles_that: Tidsskrifter der
   no_journal_titles_found_that: Kunne ikke finde tidsskrifter med titler der
   search_optional_info: 'Ekstra information - Indtast så meget som du kender af følgende:'
