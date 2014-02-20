@@ -48,6 +48,16 @@ module SearchMethods
       term
     end
 
+    #KB - remove stopwords from contains search
+    def is_stopword?(term)
+      ["and","will","their","then",
+       "there","these","that","they",
+       "or","as","a","but","in","for","the",
+       "of","no","into","be","with","not","by",
+       "on","at","was","to","such","it","if","is",
+       "are","this"].include? term
+    end
+
     # Needs to return ContextObjects
     def find_by_title
       connection = sfx4_db_connection
@@ -63,7 +73,7 @@ module SearchMethods
                                query = terms.collect do |term|
                                  #don't include 'of', 'for' or 'in' as they cause problems - KB
                                  term = replace_problem_tokens(term)
-                                 "+" + connection.quote_string(term) + "*" unless term.length <= 3
+                                 "+" + connection.quote_string(term) + "*" unless is_stopword?(term)
                                end.join(" ")
                                Rails.logger.debug "query is #{query}"
                                "MATCH (TS.TITLE_SEARCH) AGAINST ('#{query}' IN BOOLEAN MODE)"
