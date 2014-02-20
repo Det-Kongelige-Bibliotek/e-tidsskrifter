@@ -63,7 +63,7 @@ module SearchMethods
                                query = terms.collect do |term|
                                  #don't include 'of', 'for' or 'in' as they cause problems - KB
                                  term = replace_problem_tokens(term)
-                                 "+" + connection.quote_string(term) + "*" unless ['of', 'for', 'in'].include? term.downcase
+                                 "+" + connection.quote_string(term) + "*" unless term.length <= 3
                                end.join(" ")
                                Rails.logger.debug "query is #{query}"
                                "MATCH (TS.TITLE_SEARCH) AGAINST ('#{query}' IN BOOLEAN MODE)"
