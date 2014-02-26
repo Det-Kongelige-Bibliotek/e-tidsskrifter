@@ -161,6 +161,8 @@ en:
       classic_dialog_option2: "I don't like the design"
       classic_dialog_cancel: "I'll stay here."
       classic_dialog_option3: "No reason."
+      help_text_ebog: "More about e-books"
+      help_link_ebog: "http://kubis.kb.dk/content.php?pid=396411&sid=3246362"
   resolve:
     related_items:
       no_related_found: "No related items found."

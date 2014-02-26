@@ -158,6 +158,8 @@ da:
       classic_dialog_option2: "Kan ikke lide udseende"
       classic_dialog_option3: "Ingen kommentar."
       classic_dialog_cancel: "Ok, jeg bliver her!"
+      help_link_ebog: "http://kubis.kb.dk/content.php?pid=328476&sid=2687403"
+      help_text_ebog: "Læs mere om e-bøger"
   resolve:
     related_items:
       no_related_found: "Ingen relaterede poster fundet."
