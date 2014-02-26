@@ -1,10 +1,11 @@
 
 <div class="container">
-
+  <%# Note - this is the feedback form for the resolve view %>
   <span class="help-block">
     <%= t '.help_text' %>
   </span>
-  <form id="js_feedback" class="form-horizontal" role="form" method="post" action="feedback">
+  <%= form_tag("feedback", method: "post", class: "form-horizontal", id: "js_feedback", honeypot: true) do    %>
+
   <input type="hidden" name="id" value="<%=current_permalink_url %>"/>
   <input type="hidden" name="system" value="A-Z"/>
   <div class="form-group">
@@ -24,5 +25,5 @@
   <div class="form-group">
     <button type="submit" id="js_feedback_submit" class="btn btn-primary"><%=t '.send' %></button>
   </div>
-</form>
+  <% end %>
 </div>

@@ -9,6 +9,7 @@ gem 'rails', '3.2.13'
 gem 'mysql2'
 gem "umlaut"
 gem "httpclient", "~> 2.3.3"
+gem 'honeypot-captcha'
 
 group :development, :test do
   gem 'ruby-prof'

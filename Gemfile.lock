@@ -45,6 +45,7 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     hike (1.2.3)
+    honeypot-captcha (0.0.2)
     htmlentities (4.3.1)
     httpclient (2.3.3)
     i18n (0.6.1)
@@ -139,6 +140,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  honeypot-captcha
   httpclient (~> 2.3.3)
   jquery-rails
   mysql2
