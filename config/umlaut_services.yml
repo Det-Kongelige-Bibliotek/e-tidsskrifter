@@ -270,6 +270,7 @@ default:
         # Want to exclude certain hostnames from being directed through EZProxy?
         # list them in array here:
         #exclude: [ host.unversity.edu, otherhost.somewhere.com]
+        exclude: [ rex.kb.dk, bibliotek.dk]
         
 group1:
   default: false
