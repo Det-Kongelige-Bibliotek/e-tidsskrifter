@@ -176,6 +176,7 @@ en:
       title: "Report problems with online access"
       help_text: "Please let us know if something doesn't work so that we can fix the problem. The more precise you are in describing the problem, the easier it is for us to help you."
       send: "Send feedback"
+      checkbox_label: "I'm not a spambot!"
     send_message:
       message_sent: "Your message has been sent, thank you for your feedback."
   layouts:

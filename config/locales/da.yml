@@ -173,6 +173,7 @@ da:
       title: "Fejlmeld online adgang"
       help_text: "Hvis du oplever, at noget ikke virker, ser vi gerne at du fortæller os det, så vi kan rette op på fejlen. Benyt følgende formular. Jo mere præcist du kan beskrive hvad du oplever, jo bedre mulighed har vi for at hjælpe dig og andre."
       send: "Send kommentar"
+      checkbox_label: "Jeg er ikke en spambot!"
     send_message:
       message_sent: "Din besked er blevet sendt. Tak for din hjælp."
   layouts:

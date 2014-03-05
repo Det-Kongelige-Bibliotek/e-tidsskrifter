@@ -7,9 +7,12 @@ class FeedbackController < ApplicationController
   end
 
 
+  # We check to see if checkbox has been activated to ensure that this isn't a spam script
   def send_message
-    email_with_name = "#{params[:name]} <#{params[:email]}>"
-    FeedbackMailer.send_feedback(email_with_name, params[:system], params[:id], params[:comments]).deliver
+    if params[:not_a_bot]
+      email_with_name = "#{params[:name]} <#{params[:email]}>"
+      FeedbackMailer.send_feedback(email_with_name, params[:system], params[:id], params[:comments]).deliver
+    end
   end
 
 end
