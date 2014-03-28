@@ -29,7 +29,8 @@ default:
         display_name: FindIt
         base_url: http://sfx.kb.dk/sfx_local
         priority: 3
-        extra_targets_of_interest: AUB_NAL_LCL
+        extra_targets_of_interest: 
+          - AUB_NAL_LCL
 
 
       SFXRSI:
