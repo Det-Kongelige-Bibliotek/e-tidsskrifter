@@ -67,7 +67,7 @@ da:
   first_name: Fornavn
   initials: Initialer
   online_access: Online adgang
-  not_available: Ikke tilgængelig
+  not_available: Der er ikke fuldtekstadgang til dokumentet via Det Kongelige Bibliotek
   request_from_interlibrary: 'Har du ikke fjernadgang?'
   more_like_this: Anbefalinger - lignende artikler
   related_items: Relaterede materialer
