@@ -62,7 +62,7 @@ da:
   part: del
   article: artikel
   journal: tidsskrift
-  published_in: Udgivet i
+  published_in: 'Udgivet i:'
   last_name: Efternavn
   first_name: Fornavn
   initials: Initialer
@@ -107,7 +107,7 @@ da:
   charges_may_apply: Bemærk! gebyr bliver trukket hvis din service ikke dækker ubegrænset beskeder.
   number_format_description: 8 cifre dansk mobilnummer
   text_sent: Sendt til %{number}.
-  short_link: Kort link
+  short_link: Gem link til denne side
   no_item_found_warning: 'Bemærk: %{app_name} har ikke nogen %{format_searched} med dette navn. Venligst kontrollere din søgning.'
   sent: sendt
   help_header: 'Hvis du har spørgsmåle eller problemer, kontakt:'
