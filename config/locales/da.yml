@@ -61,7 +61,7 @@ da:
   title: titel
   part: del
   article: artikel
-  journal: tidsskrift
+  journal: 'tidsskriftet:'
   published_in: 'Udgivet i:'
   last_name: Efternavn
   first_name: Fornavn
