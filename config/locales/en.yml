@@ -64,12 +64,12 @@ en:
   journal: journal
   book: book
   book_section: Book Section
-  published_in: Published in
+  published_in: 'Published in:'
   last_name: Last Name
   first_name: First Name
   initials: Initials
   online_access: Online Access
-  not_available: Not Available
+  not_available: No full-text access via The Royal Library
   request_from_interlibrary: 'No remote access? See options below:'
   more_like_this: Articles recommended with this
   related_items: Related Items
@@ -108,7 +108,7 @@ en:
   charges_may_apply: 'Note: charges may apply if your service plan does not cover unlimited texting'
   number_format_description: 10 digit US cell phone number
   text_sent: Sent to %{number}.
-  short_link: Short link
+  short_link: Short link to this page
   no_item_found_warning: 'Warning: %{app_name} does not know about a %{format_searched} with this name. Please check your entry'
   sent: sent
   help_header: 'Question? Problem? Contact:'
