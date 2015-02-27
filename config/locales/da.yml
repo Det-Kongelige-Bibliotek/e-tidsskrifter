@@ -132,7 +132,7 @@ da:
   'Det Kongelige Bibliotek': Klik her for bestillingsmuligheder.
   umlaut:
     footer:
-      help_link: http://www.kb.dk/da/kub/publikum/serviceydelser/fjernadgang/fjernadgangsservice.html
+      help_link:  http://kubis.kb.dk/fjernadgang
       help_text: Læs om fjernadgang
       classic_link: http://www.kb.dk/da/materialer/e-ressourcer/tidsskrifter/oldindex.html?
       classic_text: E-Tidsskrifter (tidligere version)
