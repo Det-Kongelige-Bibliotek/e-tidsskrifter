@@ -135,7 +135,7 @@ en:
   'Det Kongelige Bibliotek': Click here to order.
   umlaut:
     footer:
-      help_link: http://www.kb.dk/en/kub/publikum/serviceydelser/fjernadgang/fjernadgangsservice.html
+      help_link: http://kubis.kb.dk/c.php?g=202959 
       help_text: More about remote access
       classic_link: http://www.kb.dk/en/materialer/e-ressourcer/tidsskrifter/oldindex.html?
       classic_text: E-Journals (previous version)
