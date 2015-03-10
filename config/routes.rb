@@ -11,11 +11,11 @@ Phobos::Application.routes.draw do
   match 'trafiklys/get_ip', to: 'trafiklys#get_ip'
   #if we don't get any parameters - show an error
   match 'trafiklys/lookUp', to: 'trafiklys#render_error'
-  match '/', to: 'search#journal_list', :id => 'A'
 
+  get "/pages/*id" => 'pages#show', as: :page, format: false
 
-
-
+  # route root url to static page
+  root to: 'pages#show', id: 'home'
   Umlaut::Routes.new(self).draw
 
   # The priority is based upon order of creation:
