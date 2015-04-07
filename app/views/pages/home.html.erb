@@ -1,2 +1,10 @@
+<h2>Categories</h2>
+<%# Run through all the categories creating a link for each subcategory %>
+<% I18n.t('frontpage_categories').each do |category, links| %>
+    <%= link_to category, '', class: 'btn btn-default', data: { remote: false } %>
+    <% links.each do |title, href| %>
+        <%= link_to title, href %>
+    <% end %>
+<% end %>
 <h3><%= t :browse_by_jtitle %></h3>
 <%= render partial: 'search/a_to_z' %>
