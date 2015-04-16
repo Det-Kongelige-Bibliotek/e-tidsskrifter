@@ -187,3 +187,6 @@ en:
   none_available: None available.
   match_exactly: match exactly
   begin_with: "begin with"
+  pages:
+    home:
+      categories: "Categories"

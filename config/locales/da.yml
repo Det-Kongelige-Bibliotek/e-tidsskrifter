@@ -184,3 +184,6 @@ da:
   none_available: Ingen tilgængelige.
   match_exactly: "er lige med"
   begin_with: "starter med"
+  pages:
+    home:
+      categories: "Kategorier"
