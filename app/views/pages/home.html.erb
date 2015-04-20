@@ -1,0 +1,37 @@
+<%= render 'search/searchbox' %>
+<div class="container">
+  <div class="page-header">
+    <h2 class="umlaut-categoryName"><%= t '.categories' %></h2>
+    <a class="btn btn-default btn-sm backbutton hide" role="button">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <%= t(:back).titleize %>
+    </a>
+  </div>
+
+<%# Run through all the categories creating a link for each subcategory %>
+  <div class="umlaut-category">
+    <% I18n.t('frontpage_categories').each do |category, links| %>
+        <% cat_target = category.to_s.parameterize %>
+        <%= link_to category, '', class: 'btn btn-default', role: 'button',
+                    data: { target: cat_target }
+        %>
+    <% end %>
+  </div>
+  <%#
+  Obviously it would be better to just use one loop, but the javascript code is dependent on a HTML structure
+  that precludes this. Since performance doesn't seem to be a problem, I'm going to let this one slide.
+  %>
+  <% I18n.t('frontpage_categories').each do |category, links| %>
+      <% cat_target = category.to_s.parameterize %>
+      <div id="<%= cat_target %>" class="umlaut-subcategory hide">
+        <% links.each do |title, href| %>
+            <%= link_to title, href, role: 'button', class: 'btn btn-default' %>
+        <% end %>
+      </div>
+  <% end %>
+  <div class="page-header">
+    <h2><%= t :browse_by_jtitle %></h2>
+  </div>
+  <%= render partial: 'search/a_to_z' %>
+  <br/>
+</div>

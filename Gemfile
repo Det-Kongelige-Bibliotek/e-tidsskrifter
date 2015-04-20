@@ -10,12 +10,17 @@ gem 'mysql2'
 gem "umlaut"
 gem "httpclient", "~> 2.3.3"
 gem 'honeypot-captcha'
+gem 'high_voltage'
 
 group :development, :test do
   gem 'ruby-prof'
   gem 'test-unit'
 end
 
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
