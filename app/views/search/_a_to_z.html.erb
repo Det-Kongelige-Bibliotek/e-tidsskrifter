@@ -3,7 +3,9 @@
     <% if params[:id] == letter %>
         <%= content_tag "span", letter %>
     <% else %>
-        <%= link_to letter, {:action=>"journal_list", :id=>letter} %>
+          <a href="journal_list/<%= letter %>?umlaut.locale=<%= I18n.locale %>">
+            <%= letter %>
+          </a>
     <% end %>
   <% end %>
 </div>
