@@ -43,7 +43,7 @@
         <li><a href="http://rex.kb.dk">Rex</a></li>
         <% # if we're in the search view, or it's a resolve page with a journal or article
            # show  the system name
-           if params[:controller] == 'search' ||
+           if params[:controller] == 'search' || params[:controller] == 'pages' ||
                 (params[:controller] == 'resolve' &&
                   (@user_request.referent.type_of_thing == 'journal' || @user_request.referent.type_of_thing == 'article')
                 )%>
