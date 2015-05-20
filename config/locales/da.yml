@@ -134,8 +134,6 @@ da:
     footer:
       help_link:  http://kubis.kb.dk/fjernadgang
       help_text: Læs om fjernadgang
-      classic_link: http://www.kb.dk/da/materialer/e-ressourcer/tidsskrifter/oldindex.html?
-      classic_text: E-Tidsskrifter (tidligere version)
       other_libraries_link: http://www.kb.dk/da/REX/sider/biblioteker.html
       other_libraries_text: Biblioteker i REX-samarbejdet
       suggest_link: http://www.kb.dk/da/kub/service/sporgbib/forslag.html
