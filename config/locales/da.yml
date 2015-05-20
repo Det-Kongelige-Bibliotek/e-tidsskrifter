@@ -136,8 +136,8 @@ da:
       help_text: Læs om fjernadgang
       other_libraries_link: http://www.kb.dk/da/REX/sider/biblioteker.html
       other_libraries_text: Biblioteker i REX-samarbejdet
-      classic_link: http://rex.kb.dk/primo_library/libweb/action/search.do?vid=KGL&reset_config=true
-      classic_text: Søg i REX
+      classic_link: http://www.kb.dk/da/materialer/e-ressourcer/tidsskrifter/oldindex.html?
+      classic_text: Tidligere version af e-tidsskrifter
       suggest_link: http://www.kb.dk/da/kub/service/sporgbib/forslag.html
       suggest_text: Bogforslag
       cant_find_link: https://rex.kb.dk/userServices/menu/Order
