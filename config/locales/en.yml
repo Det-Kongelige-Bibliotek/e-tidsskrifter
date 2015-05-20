@@ -139,8 +139,8 @@ en:
       help_text: More about remote access
       other_libraries_link: http://www.kb.dk/da/REX/sider/biblioteker.html
       other_libraries_text: Other libraries in REX
-      classic_link: http://rex.kb.dk/primo_library/libweb/action/search.do?vid=KGL&reset_config=true&prefLang=en_US
-      classic_text: Search REX      
+      classic_link: http://www.kb.dk/da/materialer/e-ressourcer/tidsskrifter/oldindex.html?
+      classic_text: Previous version (in Danish)      
       suggest_link: http://www.kb.dk/en/kub/service/sporgbib/forslag.html
       suggest_text: Suggest a title
       cant_find_link: https://rex.kb.dk/userServices/menu/Order
