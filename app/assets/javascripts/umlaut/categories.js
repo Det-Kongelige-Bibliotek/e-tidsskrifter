@@ -10,6 +10,7 @@ $(document).ready(function(){
             $('#' + catName).removeClass('hide');
             $('.umlaut-categoryName').text($button.text());
             $('.backbutton').removeClass('hide');
+            $('#browse_by_title').addClass('hide');
         }
     });
 
@@ -19,5 +20,6 @@ $(document).ready(function(){
         $('.umlaut-subcategory').addClass('hide');
         $('.umlaut-categoryName').text('Kategorier');
         $('.backbutton').addClass('hide');
+        $('#browse_by_title').removeClass('hide');
     });
 });

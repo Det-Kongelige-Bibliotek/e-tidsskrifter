@@ -25,13 +25,15 @@
       <% cat_target = category.to_s.parameterize %>
       <div id="<%= cat_target %>" class="umlaut-subcategory hide">
         <% links.each do |title, href| %>
-            <%= link_to title, href, role: 'button', class: 'btn btn-default' %>
+            <%= link_to title, href, role: 'button',  target: '_blank', class: 'btn btn-default' %>
         <% end %>
       </div>
   <% end %>
-  <div class="page-header">
-    <h2><%= t :browse_by_jtitle %></h2>
+  <div id="browse_by_title">
+    <div class="page-header">
+      <h2><%= t :browse_by_jtitle %></h2>
+    </div>
+    <%= render partial: 'search/a_to_z' %>
   </div>
-  <%= render partial: 'search/a_to_z' %>
   <br/>
 </div>
