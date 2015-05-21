@@ -40,7 +40,7 @@ en:
       month: Month
       day: Day
       year: Year
-  browse_by_jtitle: 'Browse by Journal Title:'
+  browse_by_jtitle: 'A-Z: browse all e-journals by title:'
   more_search_options: More search options
   showing_results: Showing results %{start} through %{until} of %{total}
   note: 'Note:'
@@ -189,4 +189,4 @@ en:
   begin_with: "begin with"
   pages:
     home:
-      categories: "Categories"
+      categories: "Subject areas:"
