@@ -38,7 +38,7 @@ da:
       month: Måned
       day: Dag
       year: År
-  browse_by_jtitle:  'Find dit tidsskrifts titel:'
+  browse_by_jtitle:  'Alle e-tidsskrifter alfabetisk efter titel:'
   more_search_options: Flere søgemuligheder
   showing_results: Her vises fra %{start} til %{until} af %{total}
   note: 'Bemærk:'
@@ -186,4 +186,4 @@ da:
   begin_with: "starter med"
   pages:
     home:
-      categories: "Kategorier"
+      categories: "Faglige områder:"
