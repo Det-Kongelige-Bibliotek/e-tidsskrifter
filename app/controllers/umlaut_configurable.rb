@@ -169,7 +169,7 @@ module UmlautConfigurable
         # When talking directly to the SFX A-Z list database, you may
         # need to set this, if you have multiple A-Z profiles configured
         # and don't want to use the 'default.
-        sfx_az_profile "default"    
+        sfx_az_profile "kb"    
         
         # Use your own custom search view? mention it here.   
         #search_view  "my_search"
