@@ -187,3 +187,7 @@ da:
   pages:
     home:
       categories: "Faglige områder:"
+  # Enter a message that should be shown in the application header. Leave blank if no message should be shown.
+  service_message:
+  # you can use styles success, info, danger or warning. Default is warning (yellow).
+  message_type:

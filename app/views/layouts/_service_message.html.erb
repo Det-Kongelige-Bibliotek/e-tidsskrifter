@@ -1,0 +1,16 @@
+<%#
+    This partial allows Admins to use the locale file to add a message to the website.
+    They can specify both message text and style using the Bootstrap alert classes.
+    If no message is present, nothing will be shown.
+%>
+
+<%# We need to set the vars like this because i18n will return a string
+      even if the translation is missing %>
+<% message = t(:service_message, raise: true) rescue nil %>
+<% message_type = t(:message_type, raise: true) rescue nil %>
+<% if message.present? %>
+    <% alert_type = message_type.present? ? message_type : 'info' %>
+    <div class="alert alert-<%= alert_type %>">
+      <%= message.html_safe %>
+    </div>
+<% end %>
