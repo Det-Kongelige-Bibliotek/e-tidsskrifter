@@ -21,7 +21,9 @@ module KbMetadataHelper
     # Just make one call to create metadata hash
     metadata = rft.metadata
     title = nil
-    if rft.format == 'journal' && metadata['jtitle']
+    if rft.format == 'journal' && metadata['atitle']
+      title = metadata['atitle']
+    elsif rft.format == 'journal' && metadata['jtitle']
       title = metadata['jtitle']
     elsif rft.format == 'book'
       title = metadata['btitle'] unless metadata['btitle'].blank?
