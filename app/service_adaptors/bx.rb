@@ -18,7 +18,7 @@ class Bx < Service
     @max_records = "5"
     @threshold = "50"
     @source = "global"
-    @openurl_base  = "/resolve"
+    @openurl_base  = "http://e-tidsskrifter.kb.dk/resolve"
     super(config)
   end
 
