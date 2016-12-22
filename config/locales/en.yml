@@ -69,7 +69,7 @@ en:
   first_name: First Name
   initials: Initials
   online_access: Online Access
-  not_available: No full-text access via The Royal Library
+  not_available: No full-text access via Royal Danish Library
   request_from_interlibrary: 'No remote access? See options below:'
   more_like_this: Articles recommended with this
   related_items: Related Items
@@ -126,13 +126,13 @@ en:
   try_backup_resolver: Try your request against backup link resolver
   to_report_a_problem: For more help, or to report a problem, please feel free to
   contact_us_for_help:
-  kb: The Royal Library
+  kb: Royal Danish Library
   search_in_rex: Search title in REX
   search_in_bibliotek: Search title in Bibliotek.dk
   help_link_title: Help
   help_links_title: Help
   feedback_title: Feedback
-  'Det Kongelige Bibliotek': Click here to order.
+  'Det Kongelige Bibliotek': Click here to order a paper copy - charges may apply.
   umlaut:
     footer:
       help_link: http://kubis.kb.dk/c.php?g=202959 

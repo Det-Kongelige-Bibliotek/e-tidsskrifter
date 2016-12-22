@@ -67,7 +67,7 @@ da:
   first_name: Fornavn
   initials: Initialer
   online_access: Online adgang
-  not_available: Der er ikke fuldtekstadgang til dokumentet via Det Kongelige Bibliotek
+  not_available: Der er ikke fuldtekstadgang til dokumentet via Det Kgl. Bibliotek - København.
   request_from_interlibrary: 'Har du ikke fjernadgang?'
   more_like_this: Anbefalinger - lignende artikler
   related_items: Relaterede materialer
@@ -123,13 +123,13 @@ da:
   if_doesnt_work: 'Hvis ikke det virker:'
   try_backup_resolver: Prøv din forespørgsel igen mod vores backup resolver.
   to_report_a_problem: Hvis du vil have mere hjælp eller meld en fejl, må du gerne
-  kb: Det Kongelige Bibliotek
+  kb: Det Kgl. Bibliotek - København
   search_in_rex: Søg materialet i REX
   search_in_bibliotek: Søg materialet i Bibliotek.dk
   help_link_title: Hjælp
   help_links_title: Hjælp
   feedback_title: Fejlmeld
-  'Det Kongelige Bibliotek': Klik her for bestillingsmuligheder.
+  'Det Kongelige Bibliotek': Klik her for at bestille en papirkopi - evt. mod betaling.
   umlaut:
     footer:
       help_link:  http://kubis.kb.dk/fjernadgang
