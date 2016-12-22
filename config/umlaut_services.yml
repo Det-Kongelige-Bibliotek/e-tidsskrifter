@@ -56,8 +56,8 @@ default:
         type: RexSearch
         disabled: false
         priority: c
-        url: http://rex.kb.dk/primo_library/libweb/action/dlSearch.do?institution=KGL&vid=KGL&search_scope=KGL&group=GUEST&query=any,contains,%{issn/isbn}%{+OR+}(%{title}%)
-        display_name: Det Kongelige Bibliotek
+        url: https://rex.kb.dk/primo-explore/search?vid=NUI&search_scope=KGL&query=any,contains,%{issn/isbn}%{+OR+}(%{title}%)
+        display_name: Det Kgl. Bibliotek - København
         display_text: search_in_rex
 
       BibliotekDKSearch:
